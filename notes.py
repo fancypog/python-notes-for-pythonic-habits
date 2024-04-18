@@ -1,7 +1,11 @@
 # 1. snake case
+
 # python recommends snake case where lowercase words are connected by underscore
 # like how you write the name of a function
-# declare the expected types of input and output , which is good practice
+
+# Examples: get_maximum_number, merge_sort
+
+# 2. declare the expected types of input and output , which is good practice
 def get_maximum_number(nums1: List[int]) -> int:
       # Check if the list is empty
     if not nums1:
@@ -25,7 +29,15 @@ def get_maximum_number(nums1: List[int]) -> int:
 # 2. use f strings 
 
 
-# 3. key word 'is' 
+# 3. Comparison operators "==" and "is" 
+# "==" is for value comparison, while "is" is for identity comparison
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+print(x == y)  # True, because the values of x and y are the same
+print(x is y)  # False, because x and y are two different objects in memory
+
+
 
 
 
