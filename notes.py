@@ -26,7 +26,16 @@ def get_maximum_number(nums1: List[int]) -> int:
 
 
 
-# 2. use f strings 
+# 2. use f strings for concatenation to make it plain and simple, easy to read, less to code
+item = "book"
+price = 19.99
+quantity = 3
+
+# Using f-string to concatenate variables within a string
+invoice = f"You have purchased {quantity} {item}s at ${price:.2f} each. Total cost: ${price * quantity:.2f}."
+
+print(invoice)
+
 
 
 # 3. Comparison operators "==" and "is" 
