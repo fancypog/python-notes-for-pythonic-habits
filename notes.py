@@ -49,5 +49,13 @@ print(x is y)  # False, because x and y are two different objects in memory
 
 
 
+# 4. Naming for classes follows the PascalCase convention
+class MyClass:
+    def __init__(self):
+        pass
+
+
+
+
 
 
