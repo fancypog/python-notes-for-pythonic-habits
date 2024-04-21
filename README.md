@@ -24,6 +24,6 @@ Understand the difference between "==" and "is" operators. "==" is for value com
 
 Python3 documentation for operators: [https://docs.python.org/3/library/operator.html](https://docs.python.org/3/library/operator.html)
 
-### 5. Resources to Check Out
+## 5. Resources to Check Out
 
 PEP8 Style Guide for Python: [https://peps.python.org/pep-0008/](https://peps.python.org/pep-0008/)
