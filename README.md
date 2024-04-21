@@ -1,6 +1,6 @@
 # Python Coding Conventions and Best Practices
 
-The script outlines some Python coding conventions to enhance readability, maintainability, and overall code qualityand. Examples are in note.py.
+Notes for Python coding conventions to enhance readability, maintainability, and overall code qualityand. Examples are in note.py.
 
 ## 1. General naming convention: nake Case
 
