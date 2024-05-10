@@ -5,6 +5,7 @@
 
 # Examples: get_maximum_number, merge_sort
 
+
 # 2. declare the expected types of input and output , which is good practice
 def get_maximum_number(nums1: List[int]) -> int:
       # Check if the list is empty
@@ -21,8 +22,42 @@ def get_maximum_number(nums1: List[int]) -> int:
             max_number = num
     
     return max_number
-  
-  
+      
+  # Example with documentation strings
+  def add_numbers(a: int, b: int) -> int:
+    """
+    Add two numbers.
+
+    Parameters:
+    a (int): The first number.
+    b (int): The second number.
+
+    Returns:
+    int: The sum of a and b.
+    """
+    return a + b
+
+def greet(name: str) -> str:
+    """
+    Greet a person.
+
+    Parameters:
+    name (str): The name of the person to greet.
+
+    Returns:
+    str: A greeting message.
+    """
+    return "Hello, " + name + "!"
+
+# Examples
+print(add_numbers.__annotations__)
+print(add_numbers(2, 3))  # Output: 5
+
+print(greet.__annotations__)
+print(greet("Alice"))  # Output: Hello, Alice!
+
+
+
 
 
 
