@@ -12,7 +12,7 @@ For class names
 
 ## 2. Type Annotations and Function Documentation
 
-Declare the expected types of input and output. Additionally, use docstrings to provide clear documentation for functions.
+Declare the expected types of input and output. Additionally, use docstrings to provide clear documentation for functions. Type annotations were introduced in python 3.
 
 ## 3. F-strings for Concatenation
 
